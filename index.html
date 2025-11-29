@@ -5,174 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jordan Elvis Gutiérrez Huarhua</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #dcebfa;
-            margin: 0;
-            padding: 0;
-        }
+<style>
 
-        .container {
-            width: 70%;
-            background: white;
-            margin: 30px auto;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-        }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcecff;
+    margin: 0;
+    padding: 0;
+}
 
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+.contenedor {
+    background: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+}
 
-        .header img {
-            width: 180px;
-            height: auto;
-            border-radius: 8px;
-            border: 2px solid #0077cc;
-        }
+/* Título */
+h1 {
+    color: #005fa3;
+    text-align: left;
+    margin-bottom: 10px;
+}
 
-        h1 {
-            text-align: left;
-            margin: 0;
-            color: #005599;
-        }
+/* Subtítulo */
+.subtitulo {
+    color: #444;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
 
-        h2 {
-            color: #0066cc;
-            border-left: 5px solid #0077cc;
-            padding-left: 10px;
-            margin-top: 40px;
-        }
+/* FOTO A LA DERECHA */
+.foto {
+    float: right;
+    width: 220px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border: 3px solid #99caff;
+}
 
-        ul {
-            margin-left: 20px;
-        }
+/* Títulos de sección */
+h2 {
+    color: #005fa3;
+    border-left: 4px solid #005fa3;
+    padding-left: 8px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
 
-        a {
-            color: #0055cc;
-            text-decoration: none;
-        }
+/* Interlineado y espaciado */
+p, li {
+    line-height: 1.6;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+section {
+    margin-bottom: 30px;
+}
 
-        .contact {
-            margin-top: 20px;
-        }
-    </style>
+#contacto p {
+    margin-bottom: 10px;
+}
+
+/* Enlaces */
+a {
+    color: #005fa3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="contenedor">
 
-    <!-- ENCABEZADO CON FOTO A LA DERECHA -->
-    <div class="header">
-        <div>
-            <h1>Jordan Elvis Gutiérrez Huarhua</h1>
-            <p><strong>Estudiante de Economía y Administración</strong></p>
-        </div>
+    <!-- FOTO -->
+    <img src="foto.jpg" alt="Foto de Jordan" class="foto">
 
-            <img src="foto.jpg" alt="Foto de Jordan">
+    <!-- Título principal -->
+    <h1>Jordan Elvis Gutiérrez Huarhua</h1>
+    <p class="subtitulo">Estudiante de Economía y Administración</p>
 
-    </div>
+    <!-- Acerca de mí -->
+    <section id="acerca">
+        <h2>Acerca de mí</h2>
+        <p>Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica y una orientación constante hacia la mejora continua. Poseo una visión integral de los procesos organizacionales y un interés profundo por la gestión eficiente de recursos y la toma de decisiones estratégicas.</p>
 
-    <!-- ACERCA DE MI -->
-    <h2>Acerca de mí</h2>
-    <p>
-        Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica y una orientación 
-        constante hacia la mejora continua. Poseo una visión integral de los procesos organizacionales y un interés 
-        profundo por la gestión eficiente de recursos y la toma de decisiones estratégicas.
-    </p>
+        <p>Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar información de forma clara, precisa y orientada a resultados. Busco mejorar constantemente mis habilidades y aplicar metodologías que generen valor tanto en instituciones públicas como privadas.</p>
+    </section>
 
-    <p>
-        Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar 
-        información de forma clara y orientada a resultados. Busco mejorar constantemente mis habilidades y aplicar 
-        metodologías que generen valor tanto en instituciones públicas como privadas.
-    </p>
+    <!-- Asignaturas y Profesores -->
+    <section id="cursos">
+        <h2>Asignaturas y Profesores</h2>
 
-    <!-- PROFESORES -->
-    <h2>Asignaturas y Profesores</h2>
-    <ul>
-        <li><strong>Fundamentos de Administración (ADM1-3):</strong> 
-            <a href="https://www.linkedin.com/in/jhony-velásquez-delgado-112b8019/" target="_blank">Velásquez Delgado Jhony</a>
-        </li>
+        <ul>
+            <li><strong>Fundamentos de Administración (ADM1-3):</strong> 
+                <a href="https://www.linkedin.com/in/jhony-velásquez-delgado-112b8019/" target="_blank">
+                    Velásquez Delgado Jhony
+                </a>
+            </li>
 
-        <li><strong>Literatura y Teatro (PSI1-5):</strong> 
-            <a href="https://www.linkedin.com/in/traicy-pacco-colque-01469b8386/" target="_blank">Ortega Palma Lourdes Verónica</a>
-        </li>
+            <li><strong>Literatura y Teatro (PSI1-5):</strong> 
+                <a href="https://www.linkedin.com/in/traciy-pacco-colque-01469b38b6/" target="_blank">
+                    Ortega Palma Lourdes Verónica
+                </a>
+            </li>
 
-        <li><strong>Pensamiento Crítico e Innovación (ADM2-5):</strong> 
-            <a href="https://www.linkedin.com/in/marinesmattosgutierrez/" target="_blank">Mattos Gutiérrez Marines</a>
-        </li>
+            <li><strong>Pensamiento Crítico e Innovación (ADM2-5):</strong> 
+                <a href="https://www.linkedin.com/in/marinesmattosgutierrez/" target="_blank">
+                    Mattos Gutiérrez Marines
+                </a>
+            </li>
 
-        <li><strong>Música y Artes Visuales (ADM2-7):</strong> 
-            <a href="https://www.linkedin.com/in/jorge-lovón-caparó-15144b20/" target="_blank">Lovón Caparo Jorge</a>
-        </li>
+            <li><strong>Música y Artes Visuales (ADM2-7):</strong> 
+                <a href="https://www.linkedin.com/in/jorge-lovón-caparó-15144b20/" target="_blank">
+                    Lovón Caparo Jorge
+                </a>
+            </li>
 
-        <li><strong>Pensamiento Computacional (CCOMP):</strong> 
-            <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Cuadros Vargas Ernesto</a>
-        </li>
-    </ul>
+            <li><strong>Pensamiento Computacional (CCOMP):</strong> 
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">
+                    Cuadros Vargas Ernesto
+                </a>
+            </li>
+        </ul>
+    </section>
 
-    <!-- HAB. TÉCNICAS -->
-    <h2>Habilidades Técnicas</h2>
-    <ul>
-        <li>Análisis económico y administrativo</li>
-        <li>Gestión de información y elaboración de informes</li>
-        <li>Interpretación de indicadores financieros básicos</li>
-        <li>Manejo de Excel, Word y PowerPoint</li>
-        <li>Organización y optimización de procesos</li>
-        <li>Planeamiento y seguimiento de tareas</li>
-    </ul>
+    <!-- Habilidades Técnicas -->
+    <section id="habilidades-tecnicas">
+        <h2>Habilidades Técnicas</h2>
 
-    <!-- HAB. BLANDAS -->
-    <h2>Habilidades Blandas</h2>
-    <ul>
-        <li>Pensamiento analítico</li>
-        <li>Responsabilidad y disciplina constante</li>
-        <li>Comunicación clara y profesional</li>
-        <li>Trabajo colaborativo</li>
-        <li>Resolución de problemas</li>
-        <li>Adaptabilidad y aprendizaje rápido</li>
-        <li>Proactividad e iniciativa</li>
-        <li>Atención al detalle</li>
-    </ul>
+        <ul>
+            <li>Análisis económico y administrativo</li>
+            <li>Gestión de información y elaboración de informes</li>
+            <li>Interpretación de indicadores financieros básicos</li>
+            <li>Manejo de Excel, Word y PowerPoint</li>
+            <li>Organización y optimización de procesos</li>
+            <li>Planeamiento y seguimiento de tareas</li>
+        </ul>
+    </section>
 
-    <!-- COMPAÑEROS DEL CURSO -->
-    <h2>Compañeros del Curso</h2>
-    <ul>
-        <li><strong>Marializ Cadenas Huillacpacco:</strong> 
-            <a href="https://marializcadenashuillacpacco.github.io/pagina-web/" target="_blank">Página web</a> — 
-            <a href="https://www.linkedin.com/in/marializcadenashuillacpacco/" target="_blank">LinkedIn</a>
-        </li>
+    <!-- Habilidades Blandas -->
+    <section id="habilidades-blandas">
+        <h2>Habilidades Blandas</h2>
 
-        <li><strong>Santiago Velasco Rivera:</strong> 
-            <a href="https://svr-glitch.github.io/SANTIAGO-VELASCO-RIVERA/" target="_blank">Página web</a> — 
-            <a href="https://www.linkedin.com/in/santiago-velasco-rivera/" target="_blank">LinkedIn</a>
-        </li>
+        <ul>
+            <li>Pensamiento analítico</li>
+            <li>Responsabilidad y disciplina constante</li>
+            <li>Comunicación clara y profesional</li>
+            <li>Trabajo colaborativo</li>
+            <li>Resolución de problemas</li>
+            <li>Adaptabilidad y aprendizaje rápido</li>
+            <li>Proactividad e iniciativa</li>
+            <li>Atención al detalle</li>
+        </ul>
+    </section>
 
-        <li><strong>Chaska Candia Ochoa:</strong> 
-            <a href="https://chaskacandia.github.io/chaskacandiaocha.github.io/" target="_blank">Página web</a> — 
-            <a href="https://www.linkedin.com/in/chaska-candia-ochoa-277079386/" target="_blank">LinkedIn</a>
-        </li>
+    <!-- Compañeros del Curso -->
+    <section id="companeros">
+        <h2>Compañeros del Curso</h2>
 
-        <li><strong>Angela Becerra Amado:</strong> 
-            <a href="https://angelabecerra-ipg.github.io/pagina-web/" target="_blank">Página web</a> — 
-            <a href="https://www.linkedin.com/in/angela-becerra-0b6ab6345/" target="_blank">LinkedIn</a>
-        </li>
-    </ul>
+        <ul>
+            <li><strong>Marializ Cadenas Huillacpacco:</strong> 
+                <a href="https://marializcadenashuillacpacco.github.io/pagina-web/" target="_blank">Página web</a> — 
+                <a href="https://www.linkedin.com/in/marializcadenashuillacpacco/" target="_blank">LinkedIn</a>
+            </li>
 
-    <!-- CONTACTO -->
-    <h2>Contacto</h2>
-    <p class="contact">
-        Correo: <a href="mailto:jordan.gutierrez@ucsp.edu.pe">jordan.gutierrez@ucsp.edu.pe</a>
-    </p>
+            <li><strong>Santiago Velasco Rivera:</strong> 
+                <a href="https://svr-glitch.github.io/SANTIAGO-VELASCO-RIVERA/" target="_blank">Página web</a> — 
+                <a href="https://www.linkedin.com/in/santiago-velasco-rivera/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li><strong>Chaska Candia Ochoa:</strong> 
+                <a href="https://chaskacandia.github.io/chaskacandiaocha.github.io/" target="_blank">Página web</a> — 
+                <a href="https://www.linkedin.com/in/chaska-candia-ochoa-277079386/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li><strong>Angela Becerra Amado:</strong> 
+                <a href="https://angelabecerra-ipg.github.io/pagina-web/" target="_blank">Página web</a> — 
+                <a href="https://www.linkedin.com/in/angela-becerra-0b6ab6345/" target="_blank">LinkedIn</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Correo:</strong> <a href="mailto:jordan.gutierrez@ucsp.edu.pe">jordan.gutierrez@ucsp.edu.pe</a></p>
+        <p><strong>Celular:</strong> +51 928 332 847</p>
+    </section>
 
 </div>
 
