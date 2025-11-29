@@ -7,7 +7,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #d9ecff; /* celeste suave */
+            background: #d9ecff;
         }
 
         .card {
@@ -18,35 +18,43 @@
             padding: 40px;
             border-radius: 15px;
             box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
+
+        /* CABECERA ESTILO CV */
+        .header {
             display: flex;
-            gap: 35px;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 25px;
+            border-bottom: 3px solid #d9ecff;
         }
 
-        .left {
-            width: 30%;
-            text-align: center;
-        }
-
-        .right {
+        .header-text {
             width: 70%;
         }
 
-        .photo {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+        .header-text h1 {
+            font-size: 34px;
+            margin: 0 0 8px;
+            color: #167AC6;
         }
 
-        h1 {
-            color: #167AC6;
-            font-size: 30px;
-            text-align: left;
-            margin-bottom: 5px;
+        .header-text p {
+            margin: 0;
+            font-size: 18px;
+            color: #444;
+        }
+
+        .header img {
+            width: 180px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
         }
 
         h2 {
             color: #167AC6;
-            margin-top: 25px;
+            margin-top: 28px;
             border-left: 4px solid #167AC6;
             padding-left: 10px;
         }
@@ -67,59 +75,56 @@
 
 <div class="card">
 
-    <!-- COLUMNA IZQUIERDA (FOTO) -->
-    <div class="left">
-        <img src="foto.jpg" alt="Foto de Jordan" class="photo">
+    <!-- CABECERA TIPO CURRICULUM -->
+    <div class="header">
+        <div class="header-text">
+            <h1>Jordan Elvis Gutiérrez Huarhua</h1>
+            <p>Estudiante de Economía y Administración</p>
+        </div>
+
+        <!-- FOTO A LA DERECHA -->
+        <img src="foto.jpg" alt="Foto de Jordan">
     </div>
 
-    <!-- COLUMNA DERECHA (INFO) -->
-    <div class="right">
+    <h2>Acerca de mí</h2>
+    <p>
+        Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica y una orientación constante hacia la mejora continua...
+    </p>
 
-        <h1>Jordan Elvis Gutiérrez Huarhua</h1>
-        <p style="font-size:17px;"><strong>Estudiante de Economía y Administración</strong></p>
+    <h2>Asignaturas y Profesores</h2>
+    <ul>
+        <li><strong>Fundamentos de Administración</strong> — Velásquez Delgado Jhony</li>
+        <li><strong>Literatura y Teatro</strong> — Ortega Palma Lourdes Verónica</li>
+        <li><strong>Pensamiento Crítico e Innovación</strong> — Mattos Gutiérrez Marines</li>
+        <li><strong>Música y Artes Visuales</strong> — Lovón Caparo Jorge</li>
+        <li><strong>Pensamiento Computacional</strong> — Cuadros Vargas Ernesto</li>
+    </ul>
 
-        <h2>Acerca de mí</h2>
-        <p>
-            Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica y una orientación constante hacia la mejora continua. Poseo una visión integral de los procesos organizacionales y un interés profundo por la gestión eficiente de recursos, el análisis económico y la toma de decisiones estratégicas.
-        </p>
-        <p>
-            Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar información de forma clara, precisa y orientada a resultados.
-        </p>
+    <h2>Competencias Técnicas</h2>
+    <ul>
+        <li>Análisis económico y administrativo</li>
+        <li>Gestión de información y elaboración de informes</li>
+        <li>Interpretación de indicadores financieros básicos</li>
+        <li>Manejo de Excel, Word y PowerPoint</li>
+        <li>Organización y optimización de procesos</li>
+        <li>Planeamiento y seguimiento de tareas</li>
+    </ul>
 
-        <h2>Asignaturas y Profesores</h2>
-        <ul>
-            <li><strong>Fundamentos de Administración</strong> — Velásquez Delgado Jhony</li>
-            <li><strong>Literatura y Teatro</strong> — Ortega Palma Lourdes Verónica</li>
-            <li><strong>Pensamiento Crítico e Innovación</strong> — Mattos Gutierrez Marines</li>
-            <li><strong>Música y Artes Visuales</strong> — Lovón Caparo Jorge</li>
-            <li><strong>Pensamiento Computacional</strong> — Cuadros Vargas Ernesto</li>
-        </ul>
+    <h2>Habilidades Blandas</h2>
+    <ul>
+        <li>Pensamiento analítico</li>
+        <li>Responsabilidad y disciplina constante</li>
+        <li>Comunicación clara y profesional</li>
+        <li>Trabajo colaborativo</li>
+        <li>Resolución de problemas</li>
+        <li>Adaptabilidad y aprendizaje rápido</li>
+        <li>Proactividad e iniciativa</li>
+        <li>Atención al detalle</li>
+    </ul>
 
-        <h2>Competencias Técnicas</h2>
-        <ul>
-            <li>Análisis económico y administrativo</li>
-            <li>Gestión de información y elaboración de informes</li>
-            <li>Interpretación de indicadores financieros</li>
-            <li>Manejo de Excel, Word y PowerPoint</li>
-            <li>Optimización de procesos</li>
-            <li>Planeamiento y seguimiento</li>
-        </ul>
-
-        <h2>Habilidades Blandas</h2>
-        <ul>
-            <li>Pensamiento analítico</li>
-            <li>Responsabilidad y disciplina</li>
-            <li>Comunicación clara</li>
-            <li>Trabajo en equipo</li>
-            <li>Resolución de problemas</li>
-            <li>Adaptabilidad</li>
-            <li>Proactividad</li>
-        </ul>
-
-        <h2>Contacto</h2>
-        <p><strong>Correo institucional:</strong> jordan.gutierrez@ucsp.edu.pe</p>
-        <p><strong>Celular:</strong> +51 928 332 847</p>
-    </div>
+    <h2>Contacto</h2>
+    <p><strong>Correo:</strong> jordan.gutierrez@ucsp.edu.pe</p>
+    <p><strong>Celular:</strong> +51 928 332 847</p>
 
 </div>
 
