@@ -12,36 +12,41 @@
 
         .card {
             background: #ffffff;
-            width: 80%;
-            max-width: 900px;
+            width: 85%;
+            max-width: 1100px;
             margin: 40px auto;
-            padding: 30px;
+            padding: 40px;
             border-radius: 15px;
             box-shadow: 0 0 15px rgba(0,0,0,0.15);
+            display: flex;
+            gap: 35px;
         }
 
-        .header {
+        .left {
+            width: 30%;
             text-align: center;
-            margin-bottom: 20px;
+        }
+
+        .right {
+            width: 70%;
         }
 
         .photo {
-            display: block;
-            margin: 0 auto 20px auto;
-            width: 220px;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
         }
 
         h1 {
             color: #167AC6;
-            font-size: 32px;
+            font-size: 30px;
+            text-align: left;
+            margin-bottom: 5px;
         }
 
         h2 {
             color: #167AC6;
-            margin-top: 30px;
+            margin-top: 25px;
             border-left: 4px solid #167AC6;
             padding-left: 10px;
         }
@@ -62,77 +67,59 @@
 
 <div class="card">
 
-    <div class="header">
+    <!-- COLUMNA IZQUIERDA (FOTO) -->
+    <div class="left">
         <img src="foto.jpg" alt="Foto de Jordan" class="photo">
-        <h1>Jordan Elvis Gutiérrez Huarhua</h1>
-        <p style="font-size:16px; color:#444;">
-            Estudiante de Economía y Administración
-        </p>
     </div>
 
-    <h2>Acerca de mí</h2>
-    <p>
-        Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica y una orientación constante hacia la mejora continua. Poseo una visión integral de los procesos organizacionales y un interés profundo por la gestión eficiente de recursos, el análisis económico y la toma de decisiones estratégicas.
-    </p>
-    <p>
-        Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar información de forma clara, precisa y orientada a resultados. Cuento con competencias para interpretar indicadores financieros, elaborar reportes técnicos, analizar diversos escenarios y apoyar procesos administrativos mediante un enfoque ordenado y metódico.
-    </p>
-    <p>
-        Mi estilo de trabajo combina disciplina, adaptabilidad, comunicación efectiva y atención al detalle. Busco adquirir constantemente nuevos conocimientos, perfeccionar mis habilidades y aplicar metodologías que generen valor tanto en instituciones públicas como privadas.
-    </p>
+    <!-- COLUMNA DERECHA (INFO) -->
+    <div class="right">
 
-    <h2>Asignaturas y Profesores</h2>
-    <ul>
-        <li><strong>Fundamentos de Administración (ADM1-3)</strong> — Velásquez Delgado Jhony</li>
-        <li><strong>Literatura y Teatro (PSI1-5)</strong> — Ortega Palma Lourdes Verónica</li>
-        <li><strong>Pensamiento Crítico e Innovación (ADM2-5)</strong> — Mattos Gutierrez Marines</li>
-        <li><strong>Música y Artes Visuales (ADM2-7)</strong> — Lovón Caparo Jorge</li>
-        <li><strong>Pensamiento Computacional (CCOMP)</strong> — Cuadros Vargas Ernesto</li>
-    </ul>
+        <h1>Jordan Elvis Gutiérrez Huarhua</h1>
+        <p style="font-size:17px;"><strong>Estudiante de Economía y Administración</strong></p>
 
-    <h2>Competencias Técnicas</h2>
-    <ul>
-        <li>Análisis económico y administrativo</li>
-        <li>Gestión de información y elaboración de informes</li>
-        <li>Interpretación de indicadores financieros básicos</li>
-        <li>Manejo de Excel, Word y PowerPoint</li>
-        <li>Organización y optimización de procesos</li>
-        <li>Planeamiento y seguimiento de tareas</li>
-        <li>Manejo de datos y sistematización de información</li>
-    </ul>
+        <h2>Acerca de mí</h2>
+        <p>
+            Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica y una orientación constante hacia la mejora continua. Poseo una visión integral de los procesos organizacionales y un interés profundo por la gestión eficiente de recursos, el análisis económico y la toma de decisiones estratégicas.
+        </p>
+        <p>
+            Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar información de forma clara, precisa y orientada a resultados.
+        </p>
 
-    <h2>Habilidades Blandas</h2>
-    <ul>
-        <li>Pensamiento analítico</li>
-        <li>Responsabilidad y disciplina constante</li>
-        <li>Comunicación clara y profesional</li>
-        <li>Trabajo colaborativo</li>
-        <li>Resolución de problemas</li>
-        <li>Adaptabilidad y aprendizaje rápido</li>
-        <li>Proactividad e iniciativa</li>
-        <li>Atención al detalle</li>
-    </ul>
+        <h2>Asignaturas y Profesores</h2>
+        <ul>
+            <li><strong>Fundamentos de Administración</strong> — Velásquez Delgado Jhony</li>
+            <li><strong>Literatura y Teatro</strong> — Ortega Palma Lourdes Verónica</li>
+            <li><strong>Pensamiento Crítico e Innovación</strong> — Mattos Gutierrez Marines</li>
+            <li><strong>Música y Artes Visuales</strong> — Lovón Caparo Jorge</li>
+            <li><strong>Pensamiento Computacional</strong> — Cuadros Vargas Ernesto</li>
+        </ul>
 
-    <h2>Áreas de Interés</h2>
-    <ul>
-        <li>Gestión empresarial</li>
-        <li>Análisis económico aplicado</li>
-        <li>Administración pública y privada</li>
-        <li>Finanzas y control de recursos</li>
-        <li>Diseño y optimización de procesos</li>
-        <li>Proyectos y planificación estratégica</li>
-        <li>Investigación y análisis de datos</li>
-        <li>Innovación y mejora continua</li>
-    </ul>
+        <h2>Competencias Técnicas</h2>
+        <ul>
+            <li>Análisis económico y administrativo</li>
+            <li>Gestión de información y elaboración de informes</li>
+            <li>Interpretación de indicadores financieros</li>
+            <li>Manejo de Excel, Word y PowerPoint</li>
+            <li>Optimización de procesos</li>
+            <li>Planeamiento y seguimiento</li>
+        </ul>
 
-    <h2>Objetivo Profesional</h2>
-    <p>
-        Consolidar una trayectoria en Economía y Administración, contribuyendo al desarrollo de proyectos que optimicen procesos, mejoren la eficiencia institucional y generen información clave para la toma de decisiones.
-    </p>
+        <h2>Habilidades Blandas</h2>
+        <ul>
+            <li>Pensamiento analítico</li>
+            <li>Responsabilidad y disciplina</li>
+            <li>Comunicación clara</li>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+            <li>Adaptabilidad</li>
+            <li>Proactividad</li>
+        </ul>
 
-    <h2>Contacto</h2>
-    <p><strong>Correo institucional:</strong> jordan.gutierrez@ucsp.edu.pe</p>
-    <p><strong>Celular:</strong> +51 928 332 847</p>
+        <h2>Contacto</h2>
+        <p><strong>Correo institucional:</strong> jordan.gutierrez@ucsp.edu.pe</p>
+        <p><strong>Celular:</strong> +51 928 332 847</p>
+    </div>
 
 </div>
 
