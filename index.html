@@ -1,78 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jordan Elvis Gutiérrez Huarhua</title>
+
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: #d9ecff; /* celeste suave */
+            background: #d8eaff;
+            margin: 0;
+            padding: 0;
         }
 
         .card {
+            width: 80%;
+            max-width: 900px;
             background: #ffffff;
-            width: 85%;
-            max-width: 1100px;
-            margin: 40px auto;
+            margin: 30px auto;
             padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.15);
-        }
-
-        /* CABECERA ESTILO CV */
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 25px;
-            border-bottom: 3px solid #d9ecff;
-        }
-
-        .header-text {
-            width: 70%;
-        }
-
-        .header-text h1 {
-            font-size: 34px;
-            margin: 0 0 8px;
-            color: #167AC6;
-        }
-
-        .header-text p {
-            margin: 0;
-            font-size: 18px;
-            color: #444;
-        }
-
-        .header img {
-            width: 180px;
-            height: auto;
             border-radius: 12px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .foto-perfil {
+            width: 200px;
+            border-radius: 12px;
+            border: 4px solid #67aee8;
+        }
+
+        h1 {
+            color: #0077c7;
+            margin-bottom: 5px;
         }
 
         h2 {
-            color: #167AC6;
-            margin-top: 28px;
-            border-left: 4px solid #167AC6;
-            padding-left: 10px;
+            color: #005c99;
+            border-left: 4px solid #0077c7;
+            padding-left: 8px;
+            margin-top: 40px;
         }
 
         p, li {
-            line-height: 1.7;
-            font-size: 16px;
-            color: #333;
+            text-align: left;
+            line-height: 1.6;
         }
 
         ul {
-            margin-left: 20px;
+            padding-left: 20px;
+            text-align: left;
         }
 
         a {
-            color: #167AC6;
-            text-decoration: none;
+            color: #0066cc;
             font-weight: bold;
+            text-decoration: none;
         }
 
         a:hover {
@@ -80,106 +63,107 @@
         }
     </style>
 </head>
-
 <body>
 
-<div class="card">
+    <div class="card">
 
-    <!-- CABECERA TIPO CURRICULUM -->
-    <div class="header">
-        <div class="header-text">
-            <h1>Jordan Elvis Gutiérrez Huarhua</h1>
-            <p>Estudiante de Economía y Administración</p>
-        </div>
+        <!-- FOTO ARRIBA -->
+        <img src="fotoestudiante.jpg" alt="Foto de Jordan" class="foto-perfil" />
 
-        <!-- FOTO A LA DERECHA -->
-        <img src="foto.jpg" alt="Foto de Jordan">
+        <h1>Jordan Elvis Gutiérrez Huarhua</h1>
+        <p><strong>Estudiante de Economía y Administración</strong></p>
+
+        <!-- ACERCA DE MI -->
+        <h2>Acerca de mí</h2>
+        <p>
+            Soy estudiante de Economía y Administración con una sólida capacidad analítica y una orientación constante hacia la mejora continua.
+            Poseo una visión integral de los procesos organizacionales y un interés profundo por la gestión eficiente de recursos y la toma de decisiones estratégicas.
+        </p>
+        <p>
+            Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar información de manera clara y orientada a resultados.
+        </p>
+
+        <!-- ASIGNATURAS -->
+        <h2>Asignaturas y Profesores</h2>
+
+        <ul>
+            <li><strong>Fundamentos de Administración (ADM1-3):</strong>
+                <a href="https://www.linkedin.com/in/jhony-velásquez-delgado-112b8019/" target="_blank">Velásquez Delgado Jhony</a>
+            </li>
+
+            <li><strong>Literatura y Teatro (PS11-5):</strong>
+                <a href="https://www.linkedin.com/in/traicy-pacco-colque-01469b388/" target="_blank">Ortega Palma Lourdes Verónica</a>
+            </li>
+
+            <li><strong>Pensamiento Crítico e Innovación (ADM2-5):</strong>
+                <a href="https://www.linkedin.com/in/marinesmattosgutierrez/" target="_blank">Mattos Gutiérrez Marines</a>
+            </li>
+
+            <li><strong>Música y Artes Visuales (ADM2-7):</strong>
+                <a href="https://www.linkedin.com/in/jorge-lovón-caparó-15144b20/" target="_blank">Lovón Caparo Jorge</a>
+            </li>
+
+            <li><strong>Pensamiento Computacional (CCOMP):</strong>
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Cuadros Vargas Ernesto</a>
+            </li>
+        </ul>
+
+        <!-- HABILIDADES TECNICAS -->
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>Análisis económico y administrativo</li>
+            <li>Gestión de información y elaboración de informes</li>
+            <li>Interpretación de indicadores financieros básicos</li>
+            <li>Manejo de Excel, Word y PowerPoint</li>
+            <li>Organización y optimización de procesos</li>
+            <li>Planeamiento y seguimiento de tareas</li>
+        </ul>
+
+        <!-- HABILIDADES BLANDAS -->
+        <h2>Habilidades Blandas</h2>
+        <ul>
+            <li>Pensamiento analítico</li>
+            <li>Responsabilidad y disciplina constante</li>
+            <li>Comunicación clara y profesional</li>
+            <li>Trabajo colaborativo</li>
+            <li>Resolución de problemas</li>
+            <li>Adaptabilidad y aprendizaje rápido</li>
+            <li>Proactividad e iniciativa</li>
+            <li>Atención al detalle</li>
+        </ul>
+
+        <!-- COMPAÑEROS AÑADIDOS -->
+        <h2>Compañeros del Curso</h2>
+
+        <ul>
+            <li><strong>Marializ Cadenas Huillacpacco:</strong>
+                <a href="https://marializcadenashuillacpacco.github.io/pagina-web/" target="_blank">Página web</a> —
+                <a href="https://www.linkedin.com/in/marializcadenashuillacpacco/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li><strong>Santiago Velasco Rivera:</strong>
+                <a href="https://svr-glitch.github.io/SANTIAGO-VELASCO-RIVERA/" target="_blank">Página web</a> —
+                <a href="https://www.linkedin.com/in/santiago-velasco-rivera/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li><strong>Chaska Candia Ochoa:</strong>
+                <a href="https://chaskacandia.github.io/chaskacandiaocha.github.io/" target="_blank">Página web</a> —
+                <a href="https://www.linkedin.com/in/chaska-candia-ochoa-277079386/" target="_blank">LinkedIn</a>
+            </li>
+
+            <li><strong>Angela Becerra Amado:</strong>
+                <a href="https://angelabecerra-ipg.github.io/pagina-web/" target="_blank">Página web</a> —
+                <a href="https://www.linkedin.com/in/angela-becerra-0b6ab6345/" target="_blank">LinkedIn</a>
+            </li>
+        </ul>
+
+        <!-- CONTACTO -->
+        <h2>Contacto</h2>
+        <p><strong>Correo:</strong> 
+            <a href="mailto:jordan.gutierrez@ucsp.edu.pe">jordan.gutierrez@ucsp.edu.pe</a>
+        </p>
+
     </div>
-
-    <h2>Acerca de mí</h2>
-    <p>
-        Soy estudiante de Economía y Administración, caracterizado por una sólida capacidad analítica 
-        y una orientación constante hacia la mejora continua. Poseo una visión integral de los procesos 
-        organizacionales y un interés profundo por la gestión eficiente de recursos, el análisis económico 
-        y la toma de decisiones estratégicas.
-    </p>
-    <p>
-        Me destaco por mi pensamiento crítico, responsabilidad, compromiso académico y habilidad para estructurar 
-        información de forma clara, precisa y orientada a resultados. Mi estilo de trabajo combina disciplina, 
-        adaptabilidad, comunicación efectiva y atención al detalle.
-    </p>
-
-    <h2>Asignaturas y Profesores</h2>
-    <ul>
-        <li>
-            <strong>Fundamentos de Administración</strong> — 
-            <a href="https://www.linkedin.com/in/jhony-velásquez-delgado-112b8019/" target="_blank">
-                Velásquez Delgado Jhony
-            </a>
-        </li>
-
-        <li>
-            <strong>Literatura y Teatro</strong> — 
-            <a href="https://www.linkedin.com/in/lourdes-orta-45a524282/" target="_blank">
-                Ortega Palma Lourdes Verónica
-            </a>
-        </li>
-
-        <li>
-            <strong>Pensamiento Crítico e Innovación</strong> — 
-            <a href="https://www.linkedin.com/in/marinesmattosgutierrez/" target="_blank">
-                Mattos Gutiérrez Marinés
-            </a>
-        </li>
-
-        <li>
-            <strong>Música y Artes Visuales</strong> — 
-            <a href="https://www.linkedin.com/in/jorge-lovón-caparó-15144b20/" target="_blank">
-                Lovón Caparó Jorge
-            </a>
-        </li>
-
-        <li>
-            <strong>Pensamiento Computacional</strong> — 
-            <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">
-                Cuadros Vargas Ernesto
-            </a>
-        </li>
-    </ul>
-
-    <h2>Competencias Técnicas</h2>
-    <ul>
-        <li>Análisis económico y administrativo</li>
-        <li>Gestión de información y elaboración de informes</li>
-        <li>Interpretación de indicadores financieros básicos</li>
-        <li>Manejo de Excel, Word y PowerPoint</li>
-        <li>Organización y optimización de procesos</li>
-        <li>Planeamiento y seguimiento de tareas</li>
-    </ul>
-
-    <h2>Habilidades Blandas</h2>
-    <ul>
-        <li>Pensamiento analítico</li>
-        <li>Responsabilidad y disciplina constante</li>
-        <li>Comunicación clara y profesional</li>
-        <li>Trabajo colaborativo</li>
-        <li>Resolución de problemas</li>
-        <li>Adaptabilidad y aprendizaje rápido</li>
-        <li>Proactividad e iniciativa</li>
-        <li>Atención al detalle</li>
-    </ul>
-
-    <h2>Contacto</h2>
-    <p>
-        <strong>Correo:</strong> 
-        <a href="mailto:jordan.gutierrez@ucsp.edu.pe">
-            jordan.gutierrez@ucsp.edu.pe
-        </a>
-    </p>
-
-    <p><strong>Celular:</strong> +51 928 332 847</p>
-
-</div>
 
 </body>
 </html>
